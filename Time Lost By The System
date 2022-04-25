@@ -1,0 +1,133 @@
+
+Algoritmo HorasTrabajadasAlMes
+	// Aciones secuenciales
+	// declaracion de variables
+	Definir CodigoDelEmpleador Como Caracter
+	Definir Nombre Como Caracter
+	Definir Apellidos Como Caracter
+	Definir Lunes,Martes,Miercoles,Jueves,Viernes,Sabado,Domingo,SumatoriaDeSemana,SumatoriaDelMes Como Entero
+	Definir HorasHombreTrabajadas Como Entero
+	Definir TrabajoLasHorasHombresNecesarias Como Logico
+	Definir PrimeraSemanaDelMes como Entero
+	Definir SegundaSemanaDelMes como Entero
+	Definir TerceraSemanaDelMes como Entero
+	Definir CuartaSemanaDelMes como Entero
+	// Acinacion de variables 
+	CodigoDelEmpleador <- 'b002561';
+	Nombre <- 'Brayan';
+	Apellidos <- 'Reyes Ogando';
+	Lunes <- 8;
+	Martes <- 8;
+	Miercoles <- 8;
+	Jueves <- 8;
+	Viernes <- 8;
+	sabados <- 8;
+	Domingo <- 8;
+	SumatoriaDeSemana <- 44;
+	SumatoriaDelMes <- 176;
+	TrabajoLasHorasHombreNecesarias <- 'Si'
+	HorasHombreTrabajadas <- SumatoriaDelMes
+	
+	
+     //	Escribir 'CodigoDelEmpleador: ' CodigoDelEmpleador;	
+	//  Escribir 'Nombre: ' Nombre;
+	//  Escribir 'Apellidos: ' Apellidos	;
+    //  Escribir 'SumatoriaDeSemana: ' SumatoriaDeSemana;
+    //  Escribir 'SumatoriaDelMes: ' SumatoriaDelMes;
+    //  Escribir 'TrabajoLasHorasHombreNecesarias: ' TrabajoLasHorasHombreNecesarias;
+    //  Escribir 'HorasHombreTrabajadas: ' HorasHombreTrabajadas;
+	
+	
+	//Lectura de Valores 
+	
+	//Escribir 'Codigo del Empleado'
+	//leer CodigoDelEmpleador
+	//Escribir 'Nomebre del Empleado'
+	//leer Nombre
+	//Escribir 'Apellido del Empleado'
+	//leer Apellidos
+	Escribir 'Primera Semana del Mes'
+	Escribir 'Horas Trabajadas el Lunes';
+	leer Lunes1;
+	Escribir 'Horas Trabajadas el Martes';
+	Leer Martes1;
+	Escribir 'Horas Trabajadas el Miercoles';
+	Leer Miercoles1;
+	Escribir 'Horas Trabajadas el Jueves';
+	Leer Jueves1;
+	Escribir 'Horas Trabajadas el Viernes';
+	Leer Viernes1;
+	Escribir 'Horas Trabajadas el Sabados';
+	leer sabados1;
+	Escribir 'Horas Trabajadas el Domingo';
+	leer Domingo1;
+	
+	Escribir 'Segunda Semana del Mes'
+	Escribir 'Horas Trabajadas el Lunes';
+	leer Lunes2;
+	Escribir 'Horas Trabajadas el Martes';
+	Leer Martes2;
+	Escribir 'Horas Trabajadas el Miercoles';
+	Leer Miercoles2;
+	Escribir 'Horas Trabajadas el Jueves';
+	Leer Jueves2;
+	Escribir 'Horas Trabajadas el Viernes';
+	Leer Viernes2;
+	Escribir 'Horas Trabajadas el Sabados';
+	leer sabados2;
+	Escribir 'Horas Trabajadas el Domingo';
+	leer Domingo2;
+	
+	Escribir 'Tercera Semana del Mes'
+	Escribir 'Horas Trabajadas el Lunes';
+	leer Lunes3;
+	Escribir 'Horas Trabajadas el Martes';
+	Leer Martes3;
+	Escribir 'Horas Trabajadas el Miercoles';
+	Leer Miercoles3;
+	Escribir 'Horas Trabajadas el Jueves';
+	Leer Jueves3;
+	Escribir 'Horas Trabajadas el Viernes';
+	Leer Viernes3;
+	Escribir 'Horas Trabajadas el Sabados';
+	leer sabados3;
+	Escribir 'Horas Trabajadas el Domingo';
+	leer Domingo3;
+	
+	Escribir 'Cuarta Semana del Mes'
+	Escribir 'Horas Trabajadas el Lunes';
+	leer Lunes4;
+	Escribir 'Horas Trabajadas el Martes';
+	Leer Martes4;
+	Escribir 'Horas Trabajadas el Miercoles';
+	Leer Miercoles4;
+	Escribir 'Horas Trabajadas el Jueves';
+	Leer Jueves4;
+	Escribir 'Horas Trabajadas el Viernes';
+	Leer Viernes4;
+	Escribir 'Horas Trabajadas el Sabados';
+	leer sabados4;
+	Escribir 'Horas Trabajadas el Domingo';
+	leer Domingo4;
+	
+	
+	 //Operadores
+	
+	//Operadores aritmeticos
+	Escribir 'Horas Trabajadas al Mes';
+	Escribir Lunes1+Martes1+Miercoles1+Jueves1+Viernes1+sabados1+Domingo1+Lunes2+Martes2+Miercoles2+Jueves2+Viernes2+sabados2+Domingo2+Lunes3+Martes3+Miercoles3+Jueves3+Viernes3+sabados3+Domingo3+Lunes4+Martes4+Miercoles4+Jueves4+Viernes4+sabados4+Domingo4;
+	Escribir 'Horas Hombre Trabajadas al Mes';
+	Escribir Lunes1+Martes1+Miercoles1+Jueves1+Viernes1+sabados1+Domingo1-sabados1-Domingo1+Lunes2+Martes2+Miercoles2+Jueves2+Viernes2+sabados2+Domingo2-sabados2-Domingo2+Lunes3+Martes3+Miercoles3+Jueves3+Viernes3+sabados3+Domingo3-sabados3-Domingo3+Lunes4+Martes4+Miercoles4+Jueves4+Viernes4+sabados4+Domingo4-sabados4-Domingo4;
+	Escribir 'Horas Hombre Trabajadas en la Semana'	;
+	Escribir (Lunes1+Martes1+Miercoles1+Jueves1+Viernes1+Lunes2+Martes2+Miercoles2+Jueves2+Viernes2+Lunes3+Martes3+Miercoles3+Jueves3+Viernes3+Lunes4+Martes4+Miercoles4+Jueves4+Viernes4)/4;
+	Escribir 'Horas Hombre Trabajadas en la Primera Semana';	
+	Escribir Lunes1+Martes1+Miercoles1+Jueves1+Viernes1;
+	Escribir 'Horas Hombre Trabajadas en la Segunda Semana';	
+	Escribir Lunes2+Martes2+Miercoles2+Jueves2+Viernes2;
+	Escribir 'Horas Hombre Trabajadas en la Tercera Semana';	
+	Escribir Lunes3+Martes3+Miercoles3+Jueves3+Viernes3;
+	Escribir 'Horas Hombre Trabajadas en la Cuarta Semana';	
+	Escribir Lunes4+Martes4+Miercoles4+Jueves4+Viernes4;
+	Escribir 'Horas Extras Trabajada';
+	Escribir sabados1+Domingo1+sabados2+Domingo2+sabados3+Domingo3+sabados4+Domingo4;
+FinAlgoritmo
